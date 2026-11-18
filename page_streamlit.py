@@ -5,7 +5,7 @@ import qrcode
 
 st.title("Générateur de QR code")
 
-texte = st.text_input("https://store.steampowered.com/app/1909940/Badger_Tactics/")
+texte = st.text_input("Données du QR code ci-dessous")
 
 if st.button("Envoyer"):
     if texte:
